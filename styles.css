@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6e5e3;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #424874;
+    color: #fff;
+    display: flex;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    position: relative;
+}
+
+header * {
+    position: relative;
+    z-index: 1;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+header h1 {
+    font-family: "Acme", sans-serif;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+h2 {
+    text-align: center;
+}
+
+#description {
+    /* font-family: "Shadows Into Light Two", cursive; */
+    line-height: 1.75em;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section h2 {
+    margin: 0;
+}
+
+section p {
+    margin-top: 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 810px;
+    margin: 20px auto 0;
+}
+
+.proj-tile {
+    text-decoration: none;
+    margin: 10px;
+    max-width: 250px;
+    transition: transform 0.3s ease;    
+}
+
+.proj-tile:hover {
+    transform: scale(1.05);
+}
+
+/* .proj-tile img {
+    max-width: 100%;
+} */
+
+.proj-tile p {
+    color: 000;
+    font-size: 20px;
+    margin-top: 10px;    
+}
+
+#contact {
+    background-color: #a6b1e1;
+}
