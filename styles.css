@@ -70,13 +70,17 @@ h2 {
     text-align: center;
 }
 
+#about {
+    margin-top: 50px;;
+}
+
 #self-portrait {
     border: 2px solid black;
     background-color: gray;
     height: 250px;
     width: 250px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #description {
@@ -95,6 +99,10 @@ section h2 {
 
 section p {
     margin-top: 0;
+}
+
+#projects {
+    margin-top: 50px;
 }
 
 .projects-container {
