@@ -179,9 +179,3 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
-@media (max-width: 440px) {
-    section {
-        padding: 20px;
-    }
-}
