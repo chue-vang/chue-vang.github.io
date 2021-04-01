@@ -80,7 +80,7 @@ h2 {
     border: 2px solid black;
     background-color: gray;
     height: 450px;
-    width: 480px;
+    width: 490px;
     margin: auto;
     margin-top: 30px;
 }
@@ -143,6 +143,7 @@ section p {
     color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-shadow: 1px 1px 1px black;
 }
 
 .social-ul {
@@ -166,6 +167,7 @@ section p {
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
+    text-shadow: 1px 1px 1px black;
 }
 
 .form {
@@ -179,7 +181,6 @@ section p {
     border: solid rgb(165, 6, 6) 2px;
     display: inline;
     margin: auto;
-
 }
 
 #contact {
