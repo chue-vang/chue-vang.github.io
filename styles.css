@@ -112,16 +112,16 @@ section p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 810px;
+    max-width: 1000px;
     margin: 20px auto 0;
+    text-align: center;
 }
 
 .proj-tile {
     text-decoration: none;
     margin: 10px;
-    max-width: 250px;
-
-    transition: transform 0.3s ease;    
+    max-width: 350px;
+    transition: transform 0.2s ease;    
 }
 
 .proj-tile:hover {
